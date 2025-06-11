@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { db } from "../firebase"; // Make sure your firebase config is set up
 import { collection, addDoc, Timestamp } from "firebase/firestore";
 
+
 const ContactForm = () => {
   const [form, setForm] = useState({
     name: "",
